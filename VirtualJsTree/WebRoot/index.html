@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>index.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=ISO-8859-1">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  <div id="selector">
+  <ul>
+    <li><a>Team A's Projects</a>
+      <ul>
+    <li><a>Iteration 1</a>
+          <ul>
+            <li><a>Story A</a></li>
+            <li><a>Story B</a></li>
+            <li><a>Story C</a></li>
+          </ul>
+        </li>
+    <li><a>Iteration 2</a>
+          <ul>
+        <li><a>Story D</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jstree/jquery.jstree.js"></script>
+    <script type="text/javascript">
+    (function(){
+    
+    $("#selector").jstree();
+    })();
+    
+    </script>
+  </body>
+</html>
